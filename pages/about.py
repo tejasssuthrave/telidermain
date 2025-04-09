@@ -136,10 +136,10 @@ def show_about():
             f"""
             <div style="background-color: {background_purple}; color: {text_dark}; padding: 15px; border: 1px solid {secondary_purple}; border-radius: 10px; margin-bottom: 15px; height: 100%;">
                 <h4 style="color: {primary_purple};">Vishwas V</h4>
-                <p><strong>Role:</strong> UX Designer</p>
+                <p><strong>Role:</strong> Frontend Designer</p>
                 <p><strong>Contact:</strong> +91 9765432109</p>
                 <p><strong>Mail:</strong> <a href="mailto:priya@example.com">priya@example.com</a></p>
-                <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/rohith-h-86287a2a2/">rohith h</a></p>
+                <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/vishwas-v-446a12285/">vishwas v</a></p>
             </div>
             """, 
             unsafe_allow_html=True
@@ -153,7 +153,7 @@ def show_about():
                 <p><strong>Role:</strong> Backend Developer</p>
                 <p><strong>Contact:</strong> +91 9654321098</p>
                 <p><strong>Mail:</strong> <a href="mailto:avinash@example.com">avinash@example.com</a></p>
-                <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/rohith-h-86287a2a2/">rohith h</a></p>
+                <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/teju-teju-115ba72b8/">teju b</a></p>
             </div>
             """, 
             unsafe_allow_html=True
