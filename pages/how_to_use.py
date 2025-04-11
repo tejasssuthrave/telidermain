@@ -102,19 +102,24 @@ def show_how_to_use():
         unsafe_allow_html=True
     )
 
-    # Responsive YouTube video iframe (adjust height/width as needed)
     st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-            <iframe width="700" height="394" 
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    """
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    """,
+    unsafe_allow_html=True
+   )
+
+
+    # Responsive YouTube video iframe (adjust height/width as needed)
+    
 
     # Video Tutorial Section
     
