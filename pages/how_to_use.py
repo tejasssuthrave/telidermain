@@ -92,21 +92,6 @@ def show_how_to_use():
         f"<h2 style='color: #611e9e;'>🎥 Video Tutorial</h2>", 
         unsafe_allow_html=True
     )
-    
-    st.markdown(
-        """
-        <p style='font-size: 16px;'>
-            Watch our video tutorial to get a comprehensive overview of TelidermAI's features and how to use them effectively.
-        </p>
-        """, 
-        unsafe_allow_html=True
-    )
-
-    # Video Tutorial Section
-    st.markdown(
-        f"<h2 style='color: #611e9e;'>🎥 Video Tutorial</h2>", 
-        unsafe_allow_html=True
-    )
 
     st.markdown(
         """
@@ -117,9 +102,19 @@ def show_how_to_use():
         unsafe_allow_html=True
     )
 
-    # Embedded YouTube video tutorial
-    st.video("https://www.youtube.com/watch?v=YOUR_VIDEO_ID")  # <-- Replace with actual link
-
+    # Responsive YouTube video iframe (adjust height/width as needed)
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+            <iframe width="700" height="394" 
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     # Video Tutorial Section
     
