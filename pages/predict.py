@@ -147,7 +147,8 @@ def show_predict(processor=processor, model=model, device=device):
                 st.markdown("<h4>Confidence Scores:</h4>", unsafe_allow_html=True)
                 for pred in top_predictions:
                     st.markdown(f"**{pred['label']}**")
-                    st.progress(pred['confidence'] / 100)
+                   # st.progress(pred['confidence'] / 100)
+                    st.progress(int(round(pred['confidence'])))
                     #st.progress(float(pred['confidence']) / 100)
                     st.write(f"{pred['confidence']:.2f}%")
         elif st.session_state.submitted and not st.session_state.prediction_results:
