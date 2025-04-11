@@ -102,21 +102,8 @@ def show_how_to_use():
         unsafe_allow_html=True
     )
 
-    st.markdown(
-    """
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-      <iframe
-        src="https://www.youtube.com/embed/N1i3y_ERVS"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-    """,
-    unsafe_allow_html=True
-   )
-
+    # Embedded YouTube video tutorial
+    st.video("https://www.youtube.com/watch?v=N1i3y_ERVSs")  # <-- Replace with actual link
 
     # Responsive YouTube video iframe (adjust height/width as needed)
     
