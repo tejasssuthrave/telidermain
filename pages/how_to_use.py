@@ -101,17 +101,38 @@ def show_how_to_use():
         """, 
         unsafe_allow_html=True
     )
-    
-    # Placeholder for video tutorial - to be added by user later
+
+    # Video Tutorial Section
     st.markdown(
-        """
-        <div style="background-color: #f0f2f6; padding: 20px; border-radius: 5px; margin: 15px 0; text-align: center;">
-            <p style="font-size: 18px; margin-bottom: 10px;">🎬 Video tutorial will be available soon!</p>
-            <p style="color: #555;">Check back later for a comprehensive walkthrough of all features.</p>
-        </div>
-        """,
+        f"<h2 style='color: #611e9e;'>🎥 Video Tutorial</h2>", 
         unsafe_allow_html=True
     )
+
+    st.markdown(
+        """
+        <p style='font-size: 16px;'>
+            Watch our video tutorial to get a comprehensive overview of TelidermAI's features and how to use them effectively.
+        </p>
+        """, 
+        unsafe_allow_html=True
+    )
+
+    # Embedded YouTube video tutorial
+    st.video("https://www.youtube.com/watch?v=YOUR_VIDEO_ID")  # <-- Replace with actual link
+
+
+    # Video Tutorial Section
+    
+    # Placeholder for video tutorial - to be added by user later
+    # st.markdown(
+    #     """
+    #     <div style="background-color: #f0f2f6; padding: 20px; border-radius: 5px; margin: 15px 0; text-align: center;">
+    #         <p style="font-size: 18px; margin-bottom: 10px;">🎬 Video tutorial will be available soon!</p>
+    #         <p style="color: #555;">Check back later for a comprehensive walkthrough of all features.</p>
+    #     </div>
+    #     """,
+    #     unsafe_allow_html=True
+    # )
     
     # # Getting help section
     # st.markdown(
