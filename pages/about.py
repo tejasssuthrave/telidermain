@@ -152,7 +152,7 @@ def show_about():
                 <h4 style="color: {primary_purple};">Teju B</h4>
                 <p><strong>Role:</strong> Backend Developer</p>
                 <p><strong>Contact:</strong> +91 9654321098</p>
-                <p><strong>Mail:</strong> <a href="telidermai@gmail.com">tejub@gmail.com/a></p>
+                <p><strong>Mail:</strong> <a href="telidermai@gmail.com">tejub@gmail.com/<a></p>
                 <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/teju-teju-115ba72b8/">teju b</a></p>
             </div>
             """, 
