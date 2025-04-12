@@ -400,39 +400,39 @@ elif st.session_state['current_page'] == 'Contact Us':
 st.markdown(
     """
     <style>
-    body {
+    html, body, .main {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        justify-content: space-between;
     }
-    
-    .main {
-        flex: 1;
-    }
-    
+
     .footer {
-        position: sticky;
-        left: 0;
-        right: 0;
-        bottom: 0;
         width: 100%;
         background-color: #611e9e;
         padding: 10px;
+        left: 0;
         text-align: center;
         color: white;
         box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-        margin-top: auto;
+        margin-top: 30px;
     }
-    
-    /* Add spacer to push content above footer */
-    .footer-spacer {
-        height: 50px;
+
+    /* Remove unwanted bottom spacing */
+    .block-container {
+        padding-bottom: 0 !important;
     }
     </style>
-    
-    <div class="footer-spacer"></div>
+
     <div class="footer">
-        <p style="margin: 0; padding: 5px; font-size: 14px;">TelidermAI - Your Virtual Guide for Primary Skin Condition Examination © 2025</p>
+        <p style="margin: 0; padding: 5px; font-size: 14px;">
+            TelidermAI - Your Virtual Guide for Primary Skin Condition Examination © 2025
+        </p>
     </div>
     """,
     unsafe_allow_html=True
