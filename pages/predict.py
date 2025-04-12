@@ -31,7 +31,7 @@ def show_predict(processor=processor, model=model, device=device):
     st.markdown(
         """
         <div style="background-color: #f0f2f6; padding: 10px 15px; border-radius: 5px; margin-bottom: 15px;">
-            <p style="margin: 0; padding: 0;">Please ensure the image is clear and well-lit for better results.</p>
+            <p style="margin: 0; padding: 0;">Please ensure the image is clear and well-lit for better results. Kindly upload only skin-related images to enable accurate analysis.</p>
         </div>
         """,
         unsafe_allow_html=True
