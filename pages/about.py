@@ -219,3 +219,9 @@ def show_about():
         """, 
         unsafe_allow_html=True
     )
+    st.markdown("<div style='margin-top: 40px;'></div>", unsafe_allow_html=True)
+    
+    st.markdown(
+        f"<p style='text-align: center;'><span style='font-size: 1.3em; color: {text_light};'><strong>This website and application have been developed as part of the major project requirements for the successful completion of the academic curriculum.</strong></p>", 
+        unsafe_allow_html=True
+    )
