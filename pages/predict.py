@@ -22,7 +22,7 @@ def show_predict(processor=processor, model=model, device=device):
         device: The device to run inference on
     """
     # Page header
-    st.markdown(f"<h1 class='main-header' style='text-align: center;'>🩺 Image Prediction</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 class='main-header' style='text-align: center;color: #6A0DAD;'>🩺 Image Prediction</h1>", unsafe_allow_html=True)
 
     # Introduction
     # st.write("Upload an image of a skin condition to get a preliminary AI-powered prediction.")
