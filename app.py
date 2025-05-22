@@ -72,7 +72,7 @@ email_address = "mailto:telidermai@gmail.com"
 icon_size = "1.2em"
 
 github_icon_html = f'<a href="{github_url}" target="_blank" style="margin-left: 10px; text-decoration: none; font-size: {icon_size}; color: #611e9e;"><i class="fab fa-github"></i></a>'
-huggingface_icon_html = f'<a href="{huggingface_url}" target="_blank" style="margin-left: 20px; text-decoration: none; font-size: {icon_size}; color: #611e9e;">HF</a>'
+huggingface_icon_html = f'<a href="{huggingface_url}" target="_blank" style="margin-left: 20px; text-decoration: none; font-size: {icon_size}; color: #611e9e;">🤗</a>'
 email_icon_html = f'<a href="{email_address}" style="margin-left: 20px; text-decoration: none; font-size: {icon_size}; color: #611e9e;"><i class="fas fa-envelope"></i></a>'
 contact_icon_html = f'<a href="{contact_url}" style="margin-left: 20px; text-decoration: none; font-size: {icon_size}; color: #611e9e;"><i class="fas fa-phone"></i></a>'
 
